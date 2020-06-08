@@ -1,0 +1,1 @@
+{"version":3,"file":"IListItems.d.ts","sourceRoot":"","sources":["../../../src/webparts/crudApi/IListItems.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,QAAQ;IACrB,KAAK,EAAE,OAAO,EAAE,CAAC;CAClB;AACH,MAAM,WAAW,OAAO;IACpB,KAAK,EAAE,MAAM,CAAC;IACd,EAAE,EAAE,MAAM,CAAC;IACX,WAAW,EAAC,MAAM,CAAC;IACnB,YAAY,EAAE,MAAM,CAAC;CAEtB"}
