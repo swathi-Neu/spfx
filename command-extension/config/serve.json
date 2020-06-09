@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://neudesicresearch.sharepoint.com/sites/DevTeam/Lists/Employee/AllItems.aspx",
+      "customActions": {
+        "7f56cb54-8ec9-4aeb-b3c2-21122bb1bc90": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "listviewcommand": {
+      "pageUrl": "https://neudesicresearch.sharepoint.com/sites/DevTeam/Lists/Employee/AllItems.aspx",
+      "customActions": {
+        "7f56cb54-8ec9-4aeb-b3c2-21122bb1bc90": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}
