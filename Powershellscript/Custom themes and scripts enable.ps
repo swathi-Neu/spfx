@@ -1,0 +1,39 @@
+
+
+Connect-SPOService -Url https://neudesicresearch.sharepoint.com/sites/DevTeam
+$customTheme = @{
+"themePrimary" = "#ff0000";
+"themeLighterAlt" = "#ffeded";
+"themeLighter" = "#ffd1d1";
+"themeLight" = "#ff9090";
+"themeTertiary" = "#ff3f3f";
+"themeSecondary" = "#ff0b0b";
+"themeDarkAlt" = "#e60000";
+"themeDark" = "#a30000";
+"themeDarker" = "#8c0000";
+"neutralLighterAlt" = "#f8f8f8";
+"neutralLighter" = "#f4f4f4";
+"neutralLight" = "#eaeaea";
+"neutralQuaternaryAlt" = "#dadada";
+"neutralQuaternary" = "#d0d0d0";
+"neutralTertiaryAlt" = "#c8c8c8";
+"neutralTertiary" = "#a6a6a6";
+"neutralSecondary" = "#666666";
+"neutralPrimaryAlt" = "#3c3c3c";
+"neutralPrimary" = "#333333";
+"neutralDark" = "#212121";
+"black" = "#1c1c1c";
+"white" = "#ffffff";
+"primaryBackground" = "#ffffff";
+"primaryText" = "#333333";
+"bodyBackground" = "#ffffff";
+"bodyText" = "#333333";
+"disabledBackground" = "#f4f4f4";
+"disabledText" = "#c8c8c8";
+}
+Add-SPOTheme -Name "Custom Theme" -Palette $customTheme -IsInverted $false -Overwrite
+
+
+
+
+Set-SPOsite https://neudesicresearch.sharepoint.com/sites/DevTeam -DenyAddAndCustomizePages 0
