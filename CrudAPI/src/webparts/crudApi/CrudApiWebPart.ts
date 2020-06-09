@@ -139,11 +139,6 @@ export default class CrudApiWebPart extends BaseClientSideWebPart<ICrudApiWebPar
       .then((response: SPHttpClientResponse): Promise<ISPList> => {  
         return response.json();  
       });
-      // .then((item: ISPList): void => {  
-      //   this.updateStatus(`Item '${item.Title}' (ID: ${item.Id}) successfully created`);  
-      // }, (error: any): void => {  
-      //   this.updateStatus('Error while creating the item: ' + error);  
-      // });  
     }  
       
     private updateStatus(status: string, items: ISPList[] = []): void {  
@@ -159,7 +154,7 @@ export default class CrudApiWebPart extends BaseClientSideWebPart<ICrudApiWebPar
   private UpdateSPItem(): void{
     var EmployeeId =  this.domElement.querySelector('input[name = "EmployeeId"]:checked')["value"];
     const body: string = JSON.stringify({  
-        //'Title': document.getElementById('Title')["value"],
+
         'Title': `Updated Item ${new Date()}`
       }); 
 
@@ -193,12 +188,7 @@ export default class CrudApiWebPart extends BaseClientSideWebPart<ICrudApiWebPar
                 'X-HTTP-Method': 'DELETE'  
               }  
             });
-           
-          // .then((response: SPHttpClientResponse): void => {  
-          //   this.updateStatus(`Item with ID: ${EmployeeId} successfully deleted`);  
-          // }, (error: any): void => {  
-          //   this.updateStatus(`Error deleting item: ${error}`);  
-          // });           
+                    
 
   }
 
