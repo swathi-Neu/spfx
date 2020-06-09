@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://neudesicresearch.sharepoint.com",
+      "customActions": {
+        "4c1fdfae-5442-4689-b620-1bff854a6427": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message",
+            "TopTermSetId": "bfb91e02-5151-4cab-bb21-7c46f71f2feb",
+            "BottomTermSetId": "Bottom Term Set"
+          }
+        }
+      }
+    },
+    "extTop": {
+      "pageUrl": "https://neudesicresearch.sharepoint.com",
+      "customActions": {
+        "4c1fdfae-5442-4689-b620-1bff854a6427": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message",
+            "TopTermSetId": "bfb91e02-5151-4cab-bb21-7c46f71f2feb",
+            "BottomTermSetId": "Bottom Term Set"
+          }
+        }
+      }
+    }
+  }
+}

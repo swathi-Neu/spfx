@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ext-top-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/extTop/ExtTopApplicationCustomizer.js",
+          "manifest": "./src/extensions/extTop/ExtTopApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ExtTopApplicationCustomizerStrings": "lib/extensions/extTop/loc/{locale}.js"
+  }
+}
