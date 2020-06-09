@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="AppCustomizerExt"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="80bca741-5468-4c23-a354-d297eb8d8bc8"
+        ClientSideComponentProperties= "{&quot;TermsetId&quot;:&quot;bfb91e02-5151-4cab-bb21-7c46f71f2feb&quot;}">
+        
+    </CustomAction>
+</Elements>

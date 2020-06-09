@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://neudesicresearch.sharepoint.com/sites/DevTeam",
+      "customActions": {
+        "80bca741-5468-4c23-a354-d297eb8d8bc8": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "TermsetId": "bfb91e02-5151-4cab-bb21-7c46f71f2feb"
+            
+           
+          }
+        }
+      }
+    },
+    "appCustomizerExt": {
+      "pageUrl": "https://neudesicresearch.sharepoint.com/sites/DevTeam",
+      "customActions": {
+        "80bca741-5468-4c23-a354-d297eb8d8bc8": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "TermsetId": "bfb91e02-5151-4cab-bb21-7c46f71f2feb"
+            
+            
+          }
+        }
+      }
+    }
+  }
+}

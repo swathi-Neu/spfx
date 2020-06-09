@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="AppCustomizerExt"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="80bca741-5468-4c23-a354-d297eb8d8bc8"
+        ClientSideComponentProperties= "{&quot;Top&quot;:&quot;Top area of the page&quot;,&quot;Bottom&quot;:&quot;Bottom area in the page&quot;,&quot;Logo&quot;:
+        &quot;https://neudesicresearch.sharepoint.com/sites/DevTeam/SiteAssets/icon.png&quot;}">
+        
+    </CustomAction>
+</Elements>

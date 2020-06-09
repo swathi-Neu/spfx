@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Application Extension - Deployment of custom action." Description="Deploys a custom action with ClientSideComponentId association" Id="ed964057-7a57-4d19-bb58-1499595c3233" Version="1.0.0.0" Scope="Web" Hidden="FALSE"></Feature>
