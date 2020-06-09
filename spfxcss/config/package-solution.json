@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfxcss-client-side-solution",
+    "id": "3f7c5e7a-5142-4c00-b54b-8ae19adf0511",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "features": [
+      {
+        "title": "Application Extension - Add Js Files.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "9c8d1842-34fc-419b-a563-a68bc24a0acc",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfxcss.sppkg"
+  }
+}

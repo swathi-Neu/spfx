@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Application Extension - Add Js Files." Description="Deploys a custom action with ClientSideComponentId association" Id="9c8d1842-34fc-419b-a563-a68bc24a0acc" Version="1.0.0.0" Scope="Web" Hidden="FALSE"></Feature>
