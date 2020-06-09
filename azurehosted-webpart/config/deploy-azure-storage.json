@@ -1,0 +1,7 @@
+{
+  
+  "workingDir": "./temp/deploy/",
+  "account": "newspfxsamples",
+  "container": "azurehosted-webpart",
+  "accessKey": "JJPP35KfVK36b8Ji49+myDbaPxOFCz3NLtq/4y6NCtJdxt8mFofbQl4V/b4V5J2XDB4svru+9XzRCxaW24U/sw=="
+}

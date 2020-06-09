@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "azurehosted-webpart-client-side-solution",
+    "id": "3ee5bb93-c4c0-4e96-8aab-4088893a8c28",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": false,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/azurehosted-webpart.sppkg"
+  }
+}
