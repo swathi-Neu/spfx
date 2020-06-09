@@ -1,0 +1,1 @@
+{"version":3,"file":"IGlobalNavBarProps.d.ts","sourceRoot":"","sources":["../../../../../src/extensions/navbarExtension/components/GlobalNavBar/IGlobalNavBarProps.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,WAAW,MAAM,2CAA2C,CAAC;AAEzE,MAAM,WAAW,kBAAkB;IAC/B,SAAS,EAAE,WAAW,CAAC,aAAa,EAAE,CAAC;CAC1C"}

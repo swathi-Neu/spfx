@@ -1,0 +1,42 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+.app {
+  .top {
+      text-align:center;
+      line-height:2.5;
+      font-weight:bold;
+      display: flex;
+      align-items: top;
+      justify-content: top;
+      background-color: "[theme: themePrimary, default: #0078d7]";
+      color: $ms-color-white;
+      padding: 10px;
+
+    
+  }
+
+  .bottom {
+      height:40px;
+      text-align:center;
+      line-height:2.5;
+      font-weight:bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #111111;
+      color: $ms-color-white;
+  }
+
+    .commandBar {
+      width: 100%;
+      background-color: #ce5aa1;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+  
+  }

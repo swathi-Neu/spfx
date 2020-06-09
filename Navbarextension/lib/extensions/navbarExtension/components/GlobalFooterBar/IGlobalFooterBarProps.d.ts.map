@@ -1,0 +1,1 @@
+{"version":3,"file":"IGlobalFooterBarProps.d.ts","sourceRoot":"","sources":["../../../../../src/extensions/navbarExtension/components/GlobalFooterBar/IGlobalFooterBarProps.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,WAAW,MAAM,2CAA2C,CAAC;AAEzE,MAAM,WAAW,qBAAqB;IAClC,SAAS,EAAE,WAAW,CAAC,aAAa,EAAE,CAAC;CAC1C"}
